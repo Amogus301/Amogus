@@ -1,5 +1,6 @@
 package com.example.amogus
 
-abstract class Shape(x: Int, y:Int) {
-    val color: String = "Transperent"
+abstract class Shape(val x: Int, val y: Int, val color: String = "blue") {
+val color: String = "Transperent"
+
 }
